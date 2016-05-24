@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+.navbar-nav {
+	background-color: #f8f8f8;
+}
+.comments {
+	background: white !important;
+}
+.labels {
+	color: red;
+	background-color: white;
+	font-family: "Lucida Grande", "Arial", sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	width: 40px;     
+	border: 2px solid black;
+	white-space: nowrap;
+}
+.navbar {
+	height: 80px;
+	padding: 10px;
+	background-color: #f8f8f8;
+}
+.nav-image {
+	max-width: 250px;
+}
+.navbar-nav > li > a {
+	font-weight: bold;
+}
+.nav > li > a {
+	cursor: pointer;
+}
+.section-1 {
+	margin-top: 120px;
+}
+.section-2 {
+	margin-top: 80px;
+}
+.address {
+	border: 1px solid green;
+    box-shadow: 0 0 8px #5b2eb7;
+	/*background-color: #0f5593;*/
+	padding: 40px 10px 0px 10px;
+	overflow: hidden;
+}
+.circle-image {
+	border-radius: 50%;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  margin-top: 20px;
+}
+.maps {
+	height: 390px;
+}
+.address-contact-page {
+	padding: 40px 10px 40px 10px;
+}
+.courses-section {
+	margin-top: 120px;
+}
+.login-container {
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.day {
+	text-transform: capitalize;
+}
+.update-slots-form {
+	text-align: center;
+}
+.update-container {
+	margin-top: 120px;
+}
+.btn-appointment-feedback {
+	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.btn-appointment-feedback {
+		margin-bottom: 20px;
+	}
+}
+.feedback-inputs {
+	margin-top: 10px;
+}
